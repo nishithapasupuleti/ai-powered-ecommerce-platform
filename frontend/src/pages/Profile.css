@@ -1,0 +1,118 @@
+.profile-page {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 36px 24px 60px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.profile-header-card {
+  background: #ffffff;
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+  padding: 28px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.profile-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: #f3f4f6;
+  border: 2px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4b5563;
+  flex-shrink: 0;
+}
+
+.profile-header-info h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 2px;
+}
+
+.profile-header-info p {
+  font-size: 0.88rem;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+
+.profile-role-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #eff6ff;
+  color: #1d4ed8;
+  padding: 2px 8px;
+  border-radius: 4px;
+  border: 1px solid #dbeafe;
+}
+
+.profile-card {
+  background: #ffffff;
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+  padding: 28px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.profile-card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #111827;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #f3f4f6;
+  margin-bottom: 20px;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.disabled-input {
+  background-color: #f3f4f6 !important;
+  color: #6b7280 !important;
+  cursor: not-allowed;
+}
+
+.field-hint {
+  font-size: 0.76rem;
+  color: #9ca3af;
+  margin-top: -2px;
+}
+
+.save-profile-btn {
+  margin-top: 10px;
+  align-self: flex-start;
+  background-color: #333333;
+  color: #ffffff;
+  border: none;
+  padding: 11px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.92rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.save-profile-btn:hover {
+  background-color: #111827;
+}
+
+.save-profile-btn:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}

@@ -1,0 +1,3 @@
+"""
+Recommendations application package.
+"""
